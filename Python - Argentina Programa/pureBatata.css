@@ -1,0 +1,200 @@
+/* Basic CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 7;
+    padding: 0;
+}
+
+body{
+    background-color: #c7eeed;
+}
+
+@font-face {
+    font-family:'Noto Serif Hebrew', serif;
+    src: url(NotoSerifHebrew-VariableFont_wdth\,wght.ttf);
+}
+
+/* Responsive Layout */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c8ffdd;
+}
+
+nav {
+    flex-basis: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #c8ffdd;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -16px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+
+nav a:hover {
+    background-color: #99f3a2;
+    color: #1e4120;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    flex-basis: 60%;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section {
+    flex-basis: 35%;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none
+}
+
+section li {
+    margin-bottom: 1px
+
+}
+-------------------------
+
+
+header a {
+    width: 100px;
+    box-sizing: border-box;
+    padding: 0;
+    vertical-align: middle;
+    margin-left: 35px;
+}
+header h1 {
+    text-align: center;
+    color: #0d2915;
+    box-sizing: border-box;
+    padding: 0;
+    position: initial;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+body > header > a {
+    margin-left: 23px;
+}
+
+
+
+nav ul li{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+nav ul li:hover{
+    background-color: #3e7948; /* Green */
+    color: white;
+}
+
+div h2{
+    text-align: -webkit-center;
+    font-family: 'Noto Serif Hebrew', serif;
+    letter-spacing: 5px;
+}
+
+article div h3{
+    font-family: 'Noto Serif Hebrew', serif;
+    margin-top: 21px;
+    margin-bottom: 19px;
+}
+article.container{
+    margin-left: 24px;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+
+ul {
+    list-style: square;
+    margin-left: 10px;
+    line-height: 2.5;
+    
+    text-decoration: none;
+}
+main {
+    background-color: white;
+}
+body > main > section > h2:nth-child(1){
+    text-align: -webkit-center;
+}
+body > main > section > ul{
+    text-align: -webkit-center;
+    font-family: 'Noto Serif Hebrew', serif;
+    margin-bottom: 60px;
+    
+}
+section h2{
+    font-family: 'Noto Serif Hebrew', serif;
+    text-align: -webkit-center;
+}
+section img{
+    margin-left: 104px;
+    margin-top: -25px;
+}
+
+   
+
+body > main > section > li{
+    text-align: -webkit-center;
+}
+
+
+footer p {
+    text-align: -webkit-center;
+}
+.trucoPure{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: -webkit-center;
+    font-family: 'Noto Serif Hebrew', serif;
+
+}
